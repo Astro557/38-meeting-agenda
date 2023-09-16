@@ -18,9 +18,5 @@ Meeting{
 export async function meetingAgenda(interaction: ChatInputCommandInteraction<'cached'>) {
 	await interaction;
 
-	// const subcommand = interaction.options.getSubcommand(true);
-
-	// if (subcommand === 'create') {
 	Logger.info(interaction);
-	// }
 }
